@@ -12,6 +12,8 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation(kotlin("reflect"))
+    implementation("com.networknt:json-schema-validator:1.0.38");
+    implementation("org.json:json:20171018")
     testImplementation("junit:junit:4.13")
 }
 
